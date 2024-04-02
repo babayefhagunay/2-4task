@@ -1,0 +1,62 @@
+//Məhsulları ucuzdan bahalıya düzmək
+// let products = [
+//     {
+//       id: 1,
+//       name: "Iphone 14 Pro",
+//       price: 900,
+//     },
+//     {
+//       id: 2,
+//       name: "BMW",
+//       price: 20000,
+//     },
+//     {
+//       id: 3,
+//       name: "Samsung A70",
+//       price: 600,
+//     },
+//     {
+//       id: 4,
+//       name: "Iphone 15 Pro Max", 
+//       price: 1500,
+//     },
+// ];
+
+// for (let i = 0; i<products.length-1; i++) {
+//     for (let j=0; j<products.length-1-i; j++) {
+//         if (products[j].price > products[j+1].price) {
+//             let kicik = products[j];
+//             products[j] = products[j+1];
+//             products[j+1] = kicik;
+//         }
+//     }
+// }
+// for (let j=0; j<products.length; j++) {
+//     console.log(products[j].name);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+//Beş random eded yaradıb arraya yığın sonda isə onların cəmini göstərin 
+// let numbers=[];
+// for (let i=0; i<5; i++) {
+//     let random_num = Math.floor(Math.random() * 1000); 
+//     numbers.push(random_num);
+// }
+// let array = "[" + numbers.join(", ") + "]";
+// console.log("elementler : " + array);
+// let ortalama=0
+// for (let i=0; i<5; i++) {
+// ortalama += numbers[i]/5
+// }
+// console.log("ortalama : " + Math.floor(ortalama));
+
