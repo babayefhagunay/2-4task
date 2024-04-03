@@ -22,6 +22,7 @@
 //     },
 // ];
 
+//1-ci usul
 // for (let i = 0; i<products.length-1; i++) {
 //     for (let j=0; j<products.length-1-i; j++) {
 //         if (products[j].price > products[j+1].price) {
@@ -35,6 +36,21 @@
 //     console.log(products[j].name);
 // }
 
+//ve ya 
+
+//2-ci usul
+// products.forEach((product) => {
+//     for (let j=0; j<products.length-1; j++) {
+//         if (products[j].price > products[j+1].price) {
+//             let kicik = products[j];
+//             products[j] = products[j+1];
+//             products[j+1] = kicik;
+//         }
+//     }
+// });
+// products.forEach(product => {
+//     console.log(product.name);
+// });
 
 
 
