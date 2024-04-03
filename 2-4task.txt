@@ -1,28 +1,28 @@
 //Məhsulları ucuzdan bahalıya düzmək
-// let products = [
-//     {
-//       id: 1,
-//       name: "Iphone 14 Pro",
-//       price: 900,
-//     },
-//     {
-//       id: 2,
-//       name: "BMW",
-//       price: 20000,
-//     },
-//     {
-//       id: 3,
-//       name: "Samsung A70",
-//       price: 600,
-//     },
-//     {
-//       id: 4,
-//       name: "Iphone 15 Pro Max", 
-//       price: 1500,
-//     },
-// ];
+let products = [
+    {
+      id: 1,
+      name: "Iphone 14 Pro",
+      price: 900,
+    },
+    {
+      id: 2,
+      name: "BMW",
+      price: 20000,
+    },
+    {
+      id: 3,
+      name: "Samsung A70",
+      price: 600,
+    },
+    {
+      id: 4,
+      name: "Iphone 15 Pro Max", 
+      price: 1500,
+    },
+];
 
-//1-ci usul
+// 1-ci usul
 // for (let i = 0; i<products.length-1; i++) {
 //     for (let j=0; j<products.length-1-i; j++) {
 //         if (products[j].price > products[j+1].price) {
@@ -33,24 +33,9 @@
 //     }
 // }
 // for (let j=0; j<products.length; j++) {
-//     console.log(products[j].name);
+//     console.log(products[j].name + " : " + products[j].price);
 // }
 
-//ve ya 
-
-//2-ci usul
-// products.forEach((product) => {
-//     for (let j=0; j<products.length-1; j++) {
-//         if (products[j].price > products[j+1].price) {
-//             let kicik = products[j];
-//             products[j] = products[j+1];
-//             products[j+1] = kicik;
-//         }
-//     }
-// });
-// products.forEach(product => {
-//     console.log(product.name);
-// });
 
 
 
